@@ -13,6 +13,11 @@ namespace LightningFastWordFinder
         {
             string longestWord;
             DateTime start = DateTime.Now;
+
+            /*LightningWordFinder parser = new LightningWordFinder();
+            longestWord = parser.GetLongestWord(text);
+            Console.WriteLine(longestWord);*/
+
             for (int i = 0; i < numOfRuns; ++i)
             {
                 Console.WriteLine("Run: " + i);
